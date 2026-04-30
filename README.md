@@ -2,7 +2,7 @@
 
 A charming bakery shopping experience built with pure HTML, CSS, and Vanilla JavaScript.
 
-🚀 **[Try it here](https://nada042.github.io/BlossomBakes-bakery-/)**
+🚀 **[Try it here](https://nada042.github.io/bakery/)**
 
 ---
 
