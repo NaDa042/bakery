@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Caveat:wght@400..700&family=Cherry+Swash:wght@400;700&family=Kalam:wght@300;400;700&family=Leckerli+One&family=Rock+Salt&family=Sniglet:wght@400;800&display=swap');
+
+:root {
+    --pink-light: #f4bbc9;
+    --pink-mid: #fae6e7;
+    --pink-deep: #f6a6bb;
+    --cream: #f7eeed;
+    --text-dark: #3a1a24;
+    --text-mid: #7a4a5a;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cream);
+    color: var(--text-dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ── Header ── */
+header {
+    width: 100%;
+    background: linear-gradient(135deg, var(--pink-mid), var(--pink-light));
+    padding: 2em;
+    text-align: center;
+    position: relative;
+}
+
+#home {
+    position: absolute;
+    top: 1.2em;
+    left: 1.5em;
+}
+
+#home img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+#home .animated { display: none; }
+#home .still { display: block; }
+
+#home:hover .still { display: none; }
+#home:hover .animated {
+    display: block;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "Carattere", cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3em;
+    color: var(--text-dark);
+    padding: 0.3em 0;
+}
+
+/* ── Form container ── */
+form {
+    background: var(--white);
+    border: 1.5px solid var(--pink-light);
+    border-radius: 24px;
+    padding: 2.5em;
+    margin: 3em auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 8px 30px rgba(246, 166, 187, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+/* ── Labels ── */
+label {
+    font-size: 0.9em;
+    color: var(--text-mid);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-top: 0.8em;
+}
+
+/* ── Inputs ── */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.8em 1em;
+    border: 1.5px solid var(--pink-light);
+    border-radius: 12px;
+    background: var(--cream);
+    color: var(--text-dark);
+    font-size: 1em;
+    outline: none;
+    transition: 0.2s ease all;
+    font-family: 'Playfair Display', serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: var(--pink-deep);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(246, 166, 187, 0.2);
+}
+
+/* ── Textarea ── */
+textarea {
+    height: 140px;
+    resize: vertical;
+}
+
+/* ── Submit button ── */
+input[type="submit"] {
+    margin-top: 1.2em;
+    padding: 0.9em;
+    background: var(--pink-deep);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    font-family: 'Playfair Display', serif;
+}
+
+input[type="submit"]:hover {
+    background: var(--pink-light);
+    color: var(--text-dark);
+    transform: scale(1.02);
+}

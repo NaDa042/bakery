@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Blossoms Bakery</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/contact.css">
+    </head>
+    <body>
+        <header>
+            <div title="Home Page" id="home">
+                <a href="index.html">
+                    <img class="still" src="./images/icons/homepage.png" alt="home">
+                    <img class="animated" src="./images/icons/homepage.gif" alt="home">
+                </a>
+            </div>
+            <h1>What do you want to tell us?</h1>
+        </header>
+        <form action="https://formspree.io/f/xpqbzajk" method="post">
+            <label  for="name">Name:</label>
+            <input required type="text" name="name" id="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input required type="email" name="email" id="email">
+            <br><br>
+            <label for="mass">Message:</label>
+            <br>
+            <textarea required name="mass" id="mass"></textarea>
+            <br><br>
+            <input type="submit" name="submit" value="Send your message">
+        </form>
+    </body>
+</html>
