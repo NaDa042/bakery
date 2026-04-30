@@ -21,30 +21,8 @@ A charming bakery shopping experience built with pure HTML, CSS, and Vanilla Jav
 
 - HTML
 - CSS
-- Vanilla JavaScript *(No frameworks or libraries)*
+- Vanilla JavaScript
 
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nada042/ShoppingCart.git
-   ```
-2. Open `src/index.html` in your browser — no setup or install needed!
-
----
-
-## 📁 Project Structure
-
-```
-ShoppingCart/
-└── src/
-    ├── index.html
-    ├── style.css
-    └── script.js
-```
-
----
+-------
 
 Made with 🌸 by Nada
