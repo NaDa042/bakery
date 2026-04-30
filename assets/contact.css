@@ -82,6 +82,7 @@ form,p {
 p{
     font-family: 'Playfair Display', serif;
     color: #7a4a5a;
+    font-size: 1.2rem;
 }
 /* ── Labels ── */
 label {
